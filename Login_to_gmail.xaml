@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Login_to_gmail" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="788,739.2" sap2010:WorkflowViewState.IdRef="Login_to_gmail_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Login_to_gmail" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="680.8,1863.2" sap2010:WorkflowViewState.IdRef="Login_to_gmail_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -62,39 +62,38 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login_to_gmail" sap:VirtualizedContainerService.HintSize="595.2,674.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login_to_gmail" sap:VirtualizedContainerService.HintSize="612,1798.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="553.6,581.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="570.4,1705.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Private: Open https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=1209600&amp;osid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;emr=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" sap:VirtualizedContainerService.HintSize="512,488.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Private="True" Url="https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=1209600&amp;osid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;emr=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin">
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Private: Open https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=1209600&amp;osid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Dwm&amp;emr=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" sap:VirtualizedContainerService.HintSize="528.8,1612.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Private="True" Url="https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=1209600&amp;osid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478.4,386.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="495.2,1510.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,293.6" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="453.6,1417.6" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                 <TryCatch.Finally>
                   <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Hello&quot;]" />
                 </TryCatch.Finally>
                 <TryCatch.Try>
-                  <Sequence sap:VirtualizedContainerService.HintSize="416.8,1062.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence sap:VirtualizedContainerService.HintSize="416.8,1209.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -112,9 +111,9 @@
                         </ui:Target>
                       </ui:Click.Target>
                     </ui:Click>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  identifierId'" EmptyField="True" sap:VirtualizedContainerService.HintSize="375.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="False" SimulateType="True" Text="meghanarathanraj.is19@bmsce.ac.in">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  identifierId'" EmptyField="True" sap:VirtualizedContainerService.HintSize="375.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="False" SimulateType="True" Text="meganraj251@gmail.com">
                       <ui:TypeInto.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5b25f8f8-04b1-4898-8db7-dc0e59403cb2" InformativeScreenshot="44cd7e4c9ce648f4211e24a5c06333d1" Selector="&lt;webctrl tag='INPUT' /&gt;" WaitForReady="COMPLETE">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5b25f8f8-04b1-4898-8db7-dc0e59403cb2" InformativeScreenshot="da8dd2a2c51451444f8406454e0ef4a2" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Gmail - Google Chrome' /&gt;&lt;ctrl name='Gmail' role='document' /&gt;&lt;ctrl name='Email or phone' role='editable text' /&gt;" WaitForReady="COMPLETE">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -143,7 +142,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJ9iKNV6rgEiSpgQVAcycIQAAAAACAAAAAAAQZgAAAAEAACAAAAChAwaxgB/QCiZWeLzw10pGKwE07xoCw5wKJ+LdzmN7XQAAAAAOgAAAAAIAACAAAABNjtxjFwcweAvxfpT/PzixrZcgeNfxJuLk2Wcih2fCMRAAAAC1Anvhs+omU4NRYh6qUS7IQAAAAEYtmo4aKqBRLEbreJsakRX1PCJzlCrfwH822qS4CXboGnz3g6S2ht1xrKkYQxJ2bYmhTWix7cFrTFtqNoYvMSQ=" Result="[Password]" />
+                      <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJ9iKNV6rgEiSpgQVAcycIQAAAAACAAAAAAAQZgAAAAEAACAAAAALAsL+k0U7EbjtN4E784PUWLtpNhcD+n0byC2moQcgxwAAAAAOgAAAAAIAACAAAAAhCFH5RA8pGLTkdc5FUKieRb+NJOQ3hAhO8IAiIZVzHRAAAAB8EZIkZV2QyQw3DhxQiZlsQAAAALr1RT57Fj3wt3xZ8NRdc1T3pKt3+DyITTC1ckNpUrTs16Nd+/5nJChbDupYGUYlsyE6Gof8WhGDhiBHHcbCiLk=" Result="[Password]" />
                       <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" EmptyField="False" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SendWindowMessages="False" SimulateType="True" Text="[Password]">
                         <ui:TypeInto.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5c4ca43c-af53-41ca-abca-0ac35607d766" InformativeScreenshot="2bda6d77b3e47c2cb8d47ea61363c4bd" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;" WaitForReady="COMPLETE">
@@ -166,6 +165,18 @@
                         </ui:Target>
                       </ui:Click.Target>
                     </ui:Click>
+                    <ui:WaitUiElementVanish WaitNotActive="{x:Null}" WaitNotVisible="{x:Null}" DisplayName="Wait Element Vanish 'SPAN'" sap:VirtualizedContainerService.HintSize="375.2,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementVanish_1">
+                      <ui:WaitUiElementVanish.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f1d173c7-da56-4953-8838-82ee7fc34548" InformativeScreenshot="6af68585a6039c87faa225b7cf012c20" Selector="&lt;webctrl parentid='headingText' tag='SPAN' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:WaitUiElementVanish.Target>
+                    </ui:WaitUiElementVanish>
                   </Sequence>
                 </TryCatch.Try>
               </TryCatch>
