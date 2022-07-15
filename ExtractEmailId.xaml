@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>836,424</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1008,602.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ExtractEmailId_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
@@ -90,6 +90,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJ9iKNV6rgEiSpgQVAcycIQAAAAACAAAAAAAQZgAAAAEAACAAAABZmgKzW0GQpRfaMkwZ6R6FhSBJnCCSvE3qHGZ+Wfv3NAAAAAAOgAAAAAIAACAAAACm6Pqgcw2/LimcdaJ4T+Cj/IVZsCXGOSxco1CSNYPyYSAAAABYROcCTZDFc0/B3IZ8i+n8M4K0xZ0D+NN0u5btprIxiUAAAADoKgz1gU9xAxaG2QaETicdFTo0WiWiQkR3UphfjWdBk4ygcAguvZOwnzMl/HmQjkh63kp8cYG56Zg21hzalooM" Result="[password]" />
-    <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" DeleteMessages="False" DisplayName="Get IMAP Mail Messages" Email="meganraj251@gmail.com" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[mails]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Password="[password]" Port="993" SecureConnection="Auto" Server="imap.gmail.com" TimeoutMS="300000" Top="20" />
+    <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" DeleteMessages="False" DisplayName="Get IMAP Mail Messages" Email="vaishnavin.is19@bmsce.ac.in" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[mails]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Password="[password]" Port="993" SecureConnection="Auto" Server="imap.gmail.com" TimeoutMS="300000" Top="20" />
   </Sequence>
 </Activity>
