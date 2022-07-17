@@ -459,7 +459,7 @@
                           <av:PointCollection x:Key="ConnectorLocation">201,669.8 201,720</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Unsubscribe" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <Sequence DisplayName="Unsubscribe" sap:VirtualizedContainerService.HintSize="1413.6,2273.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
